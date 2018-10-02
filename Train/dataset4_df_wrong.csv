@@ -1,0 +1,5 @@
+"","File","Query","SolutionStr","MySolutionStr"
+"1","11.txt","if (currentState != null) currentState.enter(owner);","currentState.enter(owner);","if (currentState != null) currentState.exit(owner);"
+"2","75.txt","int sdkVersion = android.os.Build.VERSION.SDK_INT;","int sdkVersion = Integer.parseInt(android.os.Build.VERSION.SDK);","int sdkVersion = Integer.parseInt(android.os.Build.VERSION.SDK);"
+"3","79.txt","routingNode.add(shardRouting);","allocation.routingNodes().assign(shardRouting, routingNode.nodeId());","RoutingNode routingNode = allocation.routingNodes().node(discoNode.id());"
+"4","82.txt","return request.getHeader(name);","return request.headers().get(name);","return request.getUri();"
