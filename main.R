@@ -243,7 +243,7 @@ for (i in 1:length(file_names_tasks)) {
         
         print(paste(file_names_tasks[i], ":", passParsing))
         
-        if (TOL == 30 || is.na(my_solution_line)) {
+        if (TOL == 5 || is.na(my_solution_line)) {
           break
         }
         TOL <- TOL + 1
